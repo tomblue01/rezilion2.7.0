@@ -5,7 +5,8 @@ jobs:
   test-sanity:
     runs-on: ubuntu-latest
     container:
-      image: python:3.7
+      tomblue01/webapp001:latest
+      #image: python:3.7
     env:
       REZILION_LICENSE_KEY: ${{ secrets.REZILION_LICENSE_KEY }}
  #     REZILION_SEVERITY_GATE: critical
