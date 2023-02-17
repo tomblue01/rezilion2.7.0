@@ -9,6 +9,7 @@ jobs:
     env:
       REZILION_LICENSE_KEY: ${{ secrets.REZILION_LICENSE_KEY }}
  #     REZILION_SEVERITY_GATE: critical
+      REZILION_RUN_REMEDIATE: true
  
     steps:
       - uses: actions/checkout@v3
